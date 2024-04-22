@@ -1,0 +1,15 @@
+/dist/
+/build/
+/node_modules/
+/coverage/
+/report/
+/.docker/
+/.npm-cache/
+/src/client
+
+package.json
+package-lock.json
+tsconfig.json
+prettier.config.cjs
+.eslintrc.js
+tailwind.config.js
