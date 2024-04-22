@@ -13,7 +13,7 @@ function App() {
       <div className='px-4 py-4'>
         <HomeSection />
         <hr />
-        <div id='about' className='h-screen pt-[80px] w-full flex justify-between gap-4'>
+        <div id='about' className='h-screen pt-[80px] px-8 w-full flex justify-between gap-4'>
           <div className='w-[60%]'>
             <AboutSection />
           </div>
@@ -23,8 +23,6 @@ function App() {
         </div>
         <hr />
         <PortfolioSection />
-
-        {/* <ContactSection /> */}
       </div>
       <Footer />
     </div>

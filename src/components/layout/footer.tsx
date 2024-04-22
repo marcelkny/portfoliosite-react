@@ -5,7 +5,7 @@ import LinkedInIcon from "../icons/linkedin.icon";
 
 export function Footer() {
     const [year,] = useState(new Date().getFullYear());
-    return (<footer className="sticky bottom-0 bg-[#2e2e2e] flex justify-between p-2">
+    return (<footer className="sticky bottom-0 flex justify-between p-2 bg-[rgba(29,29,29,0.3)] backdrop-blur-sm">
         <div className="w-1/2">
             <div className="w-1/2 mx-auto">
                 &copy; {year} Marcel Kny

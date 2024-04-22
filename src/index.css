@@ -630,6 +630,10 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -642,12 +646,20 @@ p {
   margin-top: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .h-8 {
   height: 2rem;
+}
+
+.h-\[12px\] {
+  height: 12px;
 }
 
 .h-screen {
@@ -676,6 +688,10 @@ p {
 
 .w-\[60\%\] {
   width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .w-fit {
@@ -719,6 +735,10 @@ p {
   gap: 2rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -741,13 +761,26 @@ p {
   background-color: rgb(27 26 31 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#2e2e2e\] {
+.bg-\[\#463f4a\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(46 46 46 / var(--tw-bg-opacity));
+  background-color: rgb(70 63 74 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgba\(29\2c 29\2c 29\2c 0\.3\)\] {
+  background-color: rgba(29,29,29,0.3);
+}
+
+.bg-\[\#262525\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 37 37 / var(--tw-bg-opacity));
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-2 {
@@ -773,6 +806,11 @@ p {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pt-\[80px\] {
@@ -802,13 +840,24 @@ p {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
 
-.hover\:border-yellow-600:hover {
+.hover\:border-yellow-500:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(202 138 4 / var(--tw-border-opacity));
+  border-color: rgb(234 179 8 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[\#1b1a1f\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 26 31 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {
@@ -816,7 +865,7 @@ p {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-yellow-600:hover {
+.hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity));
 }
