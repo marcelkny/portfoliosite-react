@@ -1,9 +1,11 @@
 import { useCallback } from "react";
+import { DiffYears } from "../../utils/dateutils";
 
 export function AboutSection() {
     const showPersInfo = useCallback((param: string) => {
         console.log("param: ", param);
-    }, [])
+    }, []);
+    const currentAge = DiffYears(new Date(), new Date("1989-01-09"));
     return (<div>
         <h2 id="h_myname">Marcel Kny</h2>
         <p><b>Fachinformatiker für Anwendungsentwicklung</b></p>
@@ -15,19 +17,20 @@ export function AboutSection() {
             <div className="flex flex-wrap justify-between">
                 <div className="w-[45%] my-2 text-lg">
                     <div className="w-20">Alter</div>
-                    <div>32 Jahre</div>
+                    <div>{currentAge} Jahre</div>
+                </div>
+                
+                <div className="w-[45%] my-2 text-lg">
+                    <div className="w-20">Wohnort</div>
+                    <div>Leipzig, Sachsen</div>
                 </div>
                 <div className="w-[45%] my-2 text-lg">
                     <div className="w-20">Email</div>
-                    <div>kontakt@knymarcel.de</div>
-                </div>
-                <div className="w-[45%] my-2 text-lg">
-                    <div className="w-20">Wohnort</div>
-                    <div>Leipzig</div>
+                    <div>kontakt[at]knymarcel.de</div>
                 </div>
             </div>
         </div>
-        <div className="py-2">
+        {/* <div className="py-2">
             <h3>Interessen:</h3>
             <div className="mt-4 flex justify-evenly">
                 <div className="border-2 rounded px-4 hover:cursor-pointer" onClick={() => showPersInfo('pers_info_hum')}>
@@ -44,6 +47,6 @@ export function AboutSection() {
                 </div>
             </div>
             <div className="info_txt_div" id="info_txt_div"></div>
-        </div>
+        </div> */}
     </div>);
 }

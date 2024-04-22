@@ -646,20 +646,12 @@ p {
   margin-top: 2rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .flex {
   display: flex;
 }
 
 .h-8 {
   height: 2rem;
-}
-
-.h-\[12px\] {
-  height: 12px;
 }
 
 .h-screen {
@@ -678,16 +670,8 @@ p {
   width: 5rem;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[45\%\] {
   width: 45%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
 }
 
 .w-\[70\%\] {
@@ -761,18 +745,13 @@ p {
   background-color: rgb(27 26 31 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#463f4a\] {
+.bg-\[\#262525\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(70 63 74 / var(--tw-bg-opacity));
+  background-color: rgb(38 37 37 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgba\(29\2c 29\2c 29\2c 0\.3\)\] {
   background-color: rgba(29,29,29,0.3);
-}
-
-.bg-\[\#262525\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 37 37 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -806,11 +785,6 @@ p {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pt-\[80px\] {
@@ -868,4 +842,31 @@ p {
 .hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

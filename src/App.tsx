@@ -13,11 +13,11 @@ function App() {
       <div className='px-4 py-4'>
         <HomeSection />
         <hr />
-        <div id='about' className='h-screen pt-[80px] px-8 w-full flex justify-between gap-4'>
-          <div className='w-[60%]'>
+        <div id='about' className='min-h-screen pt-[80px] px-2 lg:px-8 w-full lg:flex lg:justify-between gap-4'>
+          <div className='w-full lg:w-[60%]'>
             <AboutSection />
           </div>
-          <div className='w-[40%]'>
+          <div className='w-full lg:w-[40%] mt-8 lg:mt-0'>
             <CodingSection />
           </div>
         </div>
