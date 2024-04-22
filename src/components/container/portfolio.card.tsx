@@ -3,7 +3,7 @@ import { LinkButton } from "../buttons/link.button";
 
 export function PortfolioCard({ props }: { props: PortfolioCardProps }) {
     return (
-        <div className="border-2 rounded p-4 w-[45%] bg-[#262525]">
+        <div className="border-2 rounded p-4 pb-10 mb-8 lg:mb-0 w-full lg:w-[45%] bg-[#262525]">
             {props.imgSrc ?
                 <div>
                     <img src={props.imgSrc} className="w-full" />

@@ -20,11 +20,11 @@ export function PortfolioSection() {
         }
     ];
 return (
-    <div id="portfolio" className="pt-[80px] h-screen w-[70%] mx-auto">
+    <div id="portfolio" className="pt-[80px] h-screen w-full lg:w-[70%] mx-auto">
         <h2 className="text-center mb-4">Mein Portfolio</h2>
-        <div className="flex justify-evenly gap-4 flex-wrap">
-            {cards.map((card) => (
-                <PortfolioCard props={card} />
+        <div className="block lg:flex justify-evenly gap-4 flex-wrap">
+            {cards.map((card, index) => (
+                <PortfolioCard props={card} key={index} />
             ))}
         </div>
     </div>);

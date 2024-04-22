@@ -7,13 +7,13 @@ export function Footer() {
     const [year,] = useState(new Date().getFullYear());
     return (<footer className="sticky bottom-0 flex justify-between p-2 bg-[rgba(29,29,29,0.3)] backdrop-blur-sm">
         <div className="w-1/2">
-            <div className="w-1/2 mx-auto">
+            <div className="w-full lg:w-1/2 mx-auto">
                 &copy; {year} Marcel Kny
             </div>
             
         </div>
         <div className="w-1/2">
-            <div className="w-1/2 px-6 mx-auto flex justify-evenly gap-4">
+            <div className="w-full lg:w-1/2 px-6 mx-auto flex justify-evenly gap-4">
                 <div>
                     <a href="mailto:kontakt@knymarcel.de">
                         <MailIcon />

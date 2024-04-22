@@ -12,8 +12,8 @@ function App() {
       <Header />
       <div className='px-4 py-4'>
         <HomeSection />
-        <hr />
-        <div id='about' className='min-h-screen pt-[80px] px-2 lg:px-8 w-full lg:flex lg:justify-between gap-4'>
+        <hr className='mt-4' />
+        <div id='about' className='min-h-screen pt-[80px] lg:px-8 w-full lg:flex lg:justify-between gap-4'>
           <div className='w-full lg:w-[60%]'>
             <AboutSection />
           </div>
@@ -21,7 +21,7 @@ function App() {
             <CodingSection />
           </div>
         </div>
-        <hr />
+        <hr className='mt-4' />
         <PortfolioSection />
       </div>
       <Footer />

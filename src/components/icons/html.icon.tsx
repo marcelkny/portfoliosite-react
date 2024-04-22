@@ -1,8 +1,8 @@
 const HtmlIcon = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={45}
-    height={45}
+    width={65}
+    height={65}
     fill="currentColor"
     stroke="currentColor"
     strokeWidth={0}

@@ -9,10 +9,10 @@ export function AboutSection() {
     return (<div>
         <h2 id="h_myname">Marcel Kny</h2>
         <p><b>Fachinformatiker für Anwendungsentwicklung</b></p>
-        <div className="py-2">
+        <div className="py-2 mb-8">
             <p><i>„Jeder der aufhört zu lernen, ist alt, mag er zwanzig oder achtzig Jahre zählen. Jeder, der weiterlernt, ist jung, mag er zwanzig oder achtzig Jahre alt sein.“</i> (Henry Ford)</p>
         </div>
-        <div className="py-2">
+        <div className="py-2 mb-12">
             <h3>Zu meiner Person:</h3>
             <div className="flex flex-wrap justify-between">
                 <div className="w-[45%] my-2 text-lg">
