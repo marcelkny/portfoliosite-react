@@ -16,7 +16,7 @@ export function CodingSection() {
                 </div>
             </div>
             <div className="mb-10">
-                <h3 className="mb-4">Privat:</h3>
+                <h3>Privat:</h3>
                 <div className={portfolioSectionClass}>
                     <LanguageContainer type="raspberry" />
                     <LanguageContainer type="godot" />
@@ -25,7 +25,7 @@ export function CodingSection() {
                 </div>
             </div>
             <div className="mb-10">
-                <h3 className="mb-4">Weitere Erfahrungen:</h3>
+                <h3>Weitere Erfahrungen:</h3>
                 <div className={portfolioSectionClass}>
                     <LanguageContainer type="cplusplus" />
                     <LanguageContainer type="csharp" />

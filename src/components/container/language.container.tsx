@@ -15,8 +15,8 @@ import { UnityContainer } from "./codinglanguages/unity.container";
 
 export function LanguageContainer({ type }: { type: string }) {
     const languageContainerProps: LanguageContainerProps = {
-        containerClass: "w-fit",
-        svgContainerClass: "w-fit overflow-hidden mx-auto px-auto text-center",
+        containerClass: "w-[25%] lg:w-fit",
+        svgContainerClass: "w-fit h-[50px] overflow-hidden mx-auto px-auto text-center",
         svgClass: "",
         labelCLass: "w-fit mx-auto px-auto text-center text-lg",
     }
